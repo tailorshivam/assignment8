@@ -19,7 +19,7 @@ async function connectDB() {
   }
 }
 
-connectDB();
+await connectDB();
 
 app.get('/', async (req, res) => {
   try {
